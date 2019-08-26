@@ -1,0 +1,10 @@
+# import Person from "./person.graphql"
+
+type Query {
+  findAllPeople: [Person]
+  findOnePerson(id: String): Person
+}
+
+type Mutation {
+  makeNewPerson(firstName: String lastName: String): Person
+}
