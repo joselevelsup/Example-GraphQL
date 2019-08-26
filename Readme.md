@@ -16,6 +16,7 @@ There are a couple of Directories and files that look familiar but let me explai
 
 `models/` - Where our basic Mongoose Models exist. You still need them in order to perform queries to MongoDB. 
 
+To access GraphQL Editor, run `npm run js-server` (for the javascript server) or run `npm run ts-server` (for the typescript server). Then go to your browser and enter the url: http://localhost:8080/graphql
 
 If any more info is needed, just open an issue and I'll get to it when I can. 
 
